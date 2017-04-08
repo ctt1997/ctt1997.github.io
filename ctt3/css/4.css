@@ -27,19 +27,22 @@
 	float:left;
 	width:60px;
 	height:28px;
-	background:white;
-	border-style:solid;
-	border-color:rgb(238,238,238);
-	border-width:0 1px 0 0;
-}
-.B{
-	float:left;
-	width:60px;
-	height:28px;
 	background:rgb(247,247,247);
 	border-style:solid;
 	border-color:rgb(238,238,238);
 	border-width:0 1px 1px 0;
+}
+.A:hover{
+   background:white;
+   border-width:0 1px 0px 0;
+}
+.A p:hover{
+	font-weight:bold;
+}
+.A p{
+	font-family:sans-serif; 
+	color:black;
+	font-size:12px;
 }
 .box2{
 	box-sizing:border-box;
@@ -115,6 +118,11 @@
 	position:absolute;
 	top:190px;
 	left:211px;
+}
+.D p,.E p,.F p{
+	font-family:sans-serif; 
+	color:white;
+	font-size:10px;
 }
 .c{
 	box-sizing:border-box;
@@ -206,4 +214,9 @@
 	background:rgb(255,68,0);
 	margin-bottom:6px;
 	content:"";
+}
+.f p,.g p{
+    font-family:sans-serif; 
+    color:rgb(130,130,130);
+    font-size:10px;
 }
