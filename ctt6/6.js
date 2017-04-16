@@ -8,7 +8,7 @@ $(init)
 function init(){
 	$('.infirstbox-bigimg').hide()
     $('.infirstbox-img').click(function(){
-		$('.infirstbox-bigimg').src=$(this).attr('src');
+		$('.infirstbox-bigimg')[0].src=$(this).attr('src');
         $('.infirstbox-bigimg').show();
     });
     $('.infirstbox-bigimg').click(function(){
