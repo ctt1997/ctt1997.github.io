@@ -24,25 +24,25 @@
   box-sizing: border-box;
   height:27px;
   width:720px;
-  border-bottom:4px solid rgb(0,142,204);
+  border-bottom:4px solid rgb(32,140,199);
   display:flex;
 }
 .head-leftbox{
   width:80px;
   height:24px;
-  background:rgb(0,142,204);
-  border-radius:2px;
+  background:rgb(32,140,199);
+  border-radius:3px;
   text-align:center;
-  line-height:22px;
-  font-size:12px;
+  line-height:27px;
+  font-size:13px;
   color:white;
   font-weight:bold;
 }
 .head-middlebox{
-  width:20px;
-  height:20px;
-  background:rgb(255,86,0);
-  border-radius:2px;
+  width:19px;
+  height:19px;
+  background:rgb(254,101,15);
+  border-radius:3px;
   margin-left:5px;
   text-align:center;
   line-height:20px;
@@ -65,19 +65,19 @@
   display:flex;
 }
 .body-content-first{
-  font-size:14px;
-  color:red;
+  font-size:15px;
+  color:rgb(255,0,56);
   padding:5px 0 0 8px;
   font-weight:bold;
 }
 .body-content-second{
-  font-size:14px;
-  padding:5px 0 0 20px;
+  font-size:13px;
+  padding:5px 0 0 23px;
 }
 .body-content-third{
-  font-size:14px;
-  color:red;
-  padding:5px 0 0 5px;
+  font-size:13px;
+  color:rgb(255,0,56);
+  padding:5px 0 0 10px;
   font-weight:bold;
 }
 .body-content-forth{
@@ -85,14 +85,14 @@
   padding:5px 0 0 8px;
 }
 .body-content-fifth{
-  font-size:14px;
-  color:red;
+  font-size:13px;
+  color:rgb(255,0,56);
   padding:5px 0 0 5px;
   font-weight:bold;
 }
 .body-content-sixth{
   font-size:14px;
-  padding:5px 0 0 38px;
+  padding:5px 0 0 26px;
 }
 .body-content-seventh{
   font-size:14px;
@@ -101,17 +101,17 @@
 }
 .body-content-eighth{
   font-size:14px;
-  padding:5px 0 0 30px;
+  padding:5px 0 0 28px;
 }
 .body-content-nighth{
-  font-size:14px;
-  color:red;
+  font-size:13px;
+  color:rgb(255,0,56);
   padding:5px 0 0 5px;
   font-weight:bold;
 }
 .body-content-tenth{
   font-size:14px;
-  padding:5px 0 0 30px;
+  padding:5px 0 0 28px;
 }
 .body-content-eleventh{
   font-size:14px;
@@ -136,14 +136,14 @@
   font-size:13px;
 }
 .foot-box2{
-  width:15px;
+  width:17px;
   height:26px;
   line-height:26px;
   font-size:13px;
 }
 .foot-content{
   height:26px;
-  width:39px;
+  width:35px;
   font-size:12px;
   color:blue;
   line-height:26px;
@@ -242,16 +242,16 @@
   width:265px;
   height:43px;
   line-height:43px;
-  font-size:15px;
+  font-size:16px;
   text-align:center;
   font-weight:bold;
   align-self:flex-start;
 }
 .fa-cloud{
-  color:rgb(0,142,204);
+  color:rgb(0,146,244);
 }
 .fa-square{
-  color:rgb(0,142,204);
+  color:rgb(0,146,244);
 }
 .first-bottom-firstbox{
   margin-left:165px;
@@ -264,37 +264,36 @@
   width:170px;
   height:43px;
   display:flex;
-  flex-wrap:wrap;
 }
 .first-bottom-secondbox{
-  width:42px;
+  width:43px;
   height:43px;
   line-height:43px;
-  font-size:12px;
+  font-size:13px;
   color:blue;
   text-decoration: underline;
 }
 .first-bottom-thirdbox{
-  width:42px;
+  width:43px;
   height:43px;
   line-height:43px;
-  font-size:12px;
+  font-size:13px;
   color:blue;
   text-decoration: underline;
 }
 .first-bottom-forthbox{
-  width:40px;
+  width:43px;
   height:43px;
   line-height:43px;
-  font-size:12px;
+  font-size:13px;
   color:blue;
   text-decoration: underline;
 }
 .first-bottom-fifthbox{
-  width:40px;
+  width:43px;
   height:43px;
   line-height:43px;
-  font-size:12px;
+  font-size:13px;
   color:blue;
   text-decoration: underline;
 }
@@ -306,14 +305,14 @@
 .bottombox-second-firstbox{
   width:115px;
   height:40px;
-  border-right:2px solid rgb(150,199,216);
+  border-right:1px solid rgb(151,199,217);
 }
 .bottombox-second-firstbox1{
   width:100px;
-  height:20px;
+  height:15px;
   font-size:14px;
   font-weight:bold;
-  margin:5px 0 0 15px;
+  padding:5px 0 0 15px;
 }
 .bottombox-second-firstbox2{
   width:105px;
@@ -322,13 +321,13 @@
   font-size:13px;
 }
 .firstbox2-box{
-  border:2px dashed rgb(150,199,216);
+  border:2px dashed rgb(151,199,217);
 }
 .bottombox-second-secondbox{
   box-sizing:border-box;
-  width:302px;
+  width:304px;
   height:40px;
-  border-left:2px solid rgb(150,199,216);
+  border-left:1px solid rgb(151,199,217);
   line-height:40px;
   display:flex;
 }
@@ -337,18 +336,18 @@
   width:43px;
   height:40px;
   line-height:40px;
-  color:rgb(0,142,204);
+  color:rgb(0,146,244);
   align-self:center;
   font-size:14px;
   font-weight:bold;
 }
 .second-secondbox-content{
+  padding-left:4px;
   width:168px;
   height:40px;
   line-height:40px;
   color:rgb(0,142,204);
   font-size:14px;
-  font-weight:bold;
   text-decoration: underline;
 }
 .bottombox-second-thirdbox{
@@ -373,11 +372,16 @@
   height:40px;
   border-left:1px solid lightgrey;
 }
-.fifthbox-content{
+.fifthbox-content1{
+  height:16px;
+  font-size:13px;
+  text-align:center;
+  padding-top:4px;
+}
+.fifthbox-content2{
   height:20px;
   font-size:14px;
   text-align:center;
-  line-height:20px;
 }
 .bottombox-second-sixthbox{
   box-sizing: border-box;
@@ -398,31 +402,39 @@
 }
 .bottombox-third-firstbox{
   height:40px;
-  width:113px;
+  width:100px;
   text-align:center;
   line-height:40px;
-  font-size:12px;
+  font-size:13px;
 }
 .bottombox-third-secondbox{
   height:40px;
   width:325px;
+  padding-left:12px;
   line-height:40px;
-  font-size:15px;
+  font-size:16px;
   font-weight:bold;
 }
 .fa-envelope-square{
   color:rgb(150,199,216);
 }
 .bottombox-third-thirdbox{
-  width:120px;
+  padding-left:5px;
+  width:123px;
   height:40px;
   line-height:40px;
-  font-size:12px;
 }
-.thirdbox-content{
-  height:20px;
+.thirdbox-content1{
+  padding-top:5px;
+  height:15px;
   font-size:13px;
-  line-height:20px;
+  line-height:15px;
+}
+.thirdbox-content2{
+  height:15px;
+  font-size:13px;
+  line-height:15px;
+  padding-bottom:5px;
 }
 .ui-bottombox-forth{
   box-sizing: border-box;
@@ -433,14 +445,14 @@
 .bottombox-forth-firstbox{
   width:115px;
   height:36px;
-  border-right:2px solid rgb(150,199,216);
+  border-right:1px solid rgb(151,199,217);
 }
 .bottombox-forth-firstbox1{
   width:100px;
-  height:18px;
+  height:13px;
   font-size:14px;
   font-weight:bold;
-  margin:5px 0 0 15px;
+  padding:5px 0 0 15px;
 }
 .bottombox-forth-firstbox2{
   width:115px;
@@ -449,35 +461,31 @@
   font-size:14px;
 }
 .forth-firstbox2-box{
-  border:2px dashed rgb(150,199,216);
+  border:2px dashed rgb(151,199,217);
 }
 .bottombox-forth-secondbox{
-  width:300px;
+  width:302px;
   height:36px;
-  border-left:2px solid rgb(150,199,216);
+  border-left:1px solid rgb(151,199,217);
   display:flex;
 }
-.forth-secondbox-base1{
-  margin-left:10px;
+.forth-secondbox-base{
+ padding-left:10px;
   width:43px;
   height:36px;
   line-height:36px;
-  color:rgb(1,134,90);
+  color:rgb(0,155,99);
   font-size:14px;
   font-weight:bold;
   align-self:center;
 }
-.forth-secondbox-base2{
-  width:170px;
-  height:36px;
-}
 .forth-secondbox-content{
-  width:170px;
+  padding-left:7px;
+  width:180px;
   height:36px;
   line-height:36px;
-  color:rgb(0,142,255);
+  color:rgb(0,142,204);
   font-size:14px;
-  font-weight:bold;
 }
 .bottombox-forth-thirdbox{
   box-sizing:border-box;
@@ -523,15 +531,15 @@
   height:45px;
   line-height:45px;
   text-align:center;
-  font-size:15px;
+  font-size:16px;
   font-weight:bold;
 }
 .bottombox-fifth-secondbox{
-  padding-left:190px;
-  width:158px;
+  padding-left:185px;
+  width:163px;
   height:45px;
   line-height:45px;
-  font-size:12px;
+  font-size:13px;
 }
 .bottombox-fifth-base{
   width:127px;
