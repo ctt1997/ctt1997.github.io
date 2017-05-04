@@ -11,16 +11,16 @@
 .row{
 	margin:0;
 }
-.headline{
+.head{
 	height: 100px;
 	background: rgb(1,140,235);
 	padding: 0;
 }
-.headline-blank{
+.head-blank{
 	height: 50px;
 	background: transparent;
 }
-.headline-mes{
+.head-message{
 	height: 50px;
 	background: transparent;
 	display: flex;
@@ -30,7 +30,7 @@
 	align-self: center;
 	padding-right: 0;
 }
-.headline-mes span{
+.head-message span{
 	height: 30px;
 	background: rgb(1,105,176);
 	border-radius: 5px;
@@ -43,7 +43,7 @@
 	align-self: center;
 	color:white;
 }
-.headline-mes1{
+.head-message1{
 	height: 50px;
 	background: transparent;
 	display: flex;
@@ -53,9 +53,8 @@
 	align-self: center;
 	padding-right: 0;
 }
-.headline-mes1 span{
+.head-message1 span{
 	height: 30px;
-	/*background: rgb(1,105,176);*/
 	border-radius: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -66,10 +65,10 @@
 	align-self: center;
 	color:white;
 }
-.headline-mes1 span:hover{
+.head-message1 span:hover{
 	background-color: rgb(1,105,176);
 }
-.headline-login{
+.head-logo{
 	height: 50px;
 	background: transparent;
 	display: flex;
@@ -77,7 +76,7 @@
 	align-items: center;
 	color: white;
 }
-.headline-search{
+.head-search{
 	height: 50px;
 	background: transparent;
 	display: flex;
@@ -86,7 +85,7 @@
 	color: white;
 }
 
-.headline-search-input{
+.head-search-input{
 	background: white;
 	height: 30px;
 	border-radius: 3px;
@@ -97,10 +96,11 @@
 	font-size: 15px;
 	padding-left: 0;
 }
-.headline-search-input span{
+.head-search-input span{
 	height: 30px;
 	color: black;
 	background: rgb(249,249,249);
+	border-right:solid lightgrey 1px;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -109,13 +109,18 @@
 	padding-left:5px;
 	padding-right:10px;  
 }
-.headline-search-input i{
+.head-search-input i{
 	color: rgb(180,180,180);
+}
+.head-search-input div{
+	width:165px;
+	height:30px;
+	border-right:solid lightgrey 1px;
 }
 .container{
 	padding: 0;
 }
-.main-screen{
+.middle-screen{
 	height: 260px;
 	background: transparent;
 	margin-top:15px;
@@ -130,10 +135,10 @@
 	height: 260px;
 	margin-left: 15px;
 }
-.main-screen .box-left{
+.middle-screen .box-left{
 	background: rgb(102,102,102);
 }
-.main-screen .box-right{
+.middle-screen .box-right{
 	background: rgb(244,244,244);
 }
 .mid-line{
@@ -209,13 +214,13 @@
 	border-left: none;
 	border-top: none;
 }
-.left-bor{
+.left-border{
 	border-left: 1px solid #ccc;
 }
-.top-bor{
+.top-border{
 	border-top: 1px solid #ccc;
 }
-.main-right-top{
+.middle-right-top{
 	height: 180px;
 	background: transparent;
 	display: flex;
@@ -223,13 +228,13 @@
 	align-content: space-around;
 	flex-wrap:wrap;
 }
-.main-right-top-box{
+.middle-right-top-box{
 	height: 35px;
 	border-radius: 5px;
 	background:rgb(0,156,235);
 	margin-bottom: 30px;
 }
-.main-right-top span{
+.middle-right-top span{
 	background: transparent;
 	display: flex;
 	justify-content: center;
@@ -241,7 +246,7 @@
 	font-size: 20px;
 	margin-bottom: 0;
 }
-.main-right-down{
+.middle-right-down{
 	border-top:1px dashed #ccc;
 	height: 80px;
 	background: transparent;
@@ -252,7 +257,7 @@
 	align-self: center;
 	flex-wrap: wrap;
 }
-.main-right-down .main-right-down-inside{
+.middle-right-down .middle-right-down-in{
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -260,7 +265,7 @@
 	align-self: center;
 	flex-wrap: wrap;
 }
-.main-right-down .main-right-down-inside span{
+.middle-right-down .middle-right-down-in span{
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -268,22 +273,22 @@
 	align-self: center;
 	flex-wrap: wrap;
 }
-.words-blue{
+.words-first{
 	color:rgb(0,156,255);
 	margin-right: 5%;
 	padding: 0;
 }
-.words-gray{
+.words-second{
 	color: rgb(150,150,150);
 	padding: 0;
 	font-size: 15px;
 }
-.words-black{
+.words-third{
 	color: rgb(0,0,0);
 	font-size: 20px;
 	padding: 0;
 }
-.box-left-small .words-black{
+.box-left-small .words-third{
 	height: 60px;
 	background: transparent;
 	display: flex;
@@ -294,7 +299,7 @@
 	flex-wrap: wrap;
 	padding:0;
 }
-.box-left-small .words-gray{
+.box-left-small .words-second{
 	text-indent:2em;
 	background: transparent;
 	height: 110px;
@@ -319,13 +324,13 @@
 	color: rgb(150,150,150);
 	padding: 0;
 }
-.box-left-small .pic{
+.box-left-small .picture{
 	margin-top: 15px;
 	height: 100px;
 	background:rgb(102,102,102);
 	margin-bottom:10px;
 }
-.box-left-small .pic .play{
+.box-left-small .picture .play{
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -338,7 +343,7 @@
     border: 2px solid #A6A6A5;
     cursor: pointer;
 	}
- .box-left-small .pic .play .tri {
+ .box-left-small .picture .play .tri {
     margin-left: 1px;
     width: 0;
     height: 0;
@@ -346,7 +351,7 @@
     border-left: 7px solid #F7F7F7;
     border-bottom: 4px solid transparent;
 }
-.words-black-spe{
+.words-third-spe{
 	color: rgb(0,0,0);
 	font-size: 20px;
 	height: 20px;
@@ -360,7 +365,7 @@
 	flex-wrap: wrap;
 	padding:0;
 }
-.words-black-ppt{
+.words-third-ppt{
 	color: rgb(0,0,0);
 	font-size: 20px;
 	height: 20px;
@@ -401,7 +406,7 @@
 	background: rgb(250,60,25);
 	border: 1px solid rgb(225,80,25);
 }
-.box-left-big .pic{
+.box-left-big .picture{
 	margin-top: 15px;
 	height: 160px;
 	background:rgb(102,102,102);
@@ -439,7 +444,7 @@
 	color: rgb(150,150,150);
 	padding: 0;
 }
-.bot-bor{
+.bot-border{
 	border-bottom: 5px solid rgb(0,145,238);
 }
 .right-small-top{
@@ -486,7 +491,7 @@
 	align-self: center;
 	flex-wrap: wrap;
 	background: rgb(102,102,102);
-	margin-top: 20px;
+	margin-top: -5px;
 }
 .right-small-down-box1{
 	height: 30px;
@@ -503,7 +508,7 @@
 	align-self: center;
 	color:white;
 }
-.right-all .box-right .pic{
+.right-all .box-right .picture{
 	margin-top: 15px;
 	height: 120px;
 	background:rgb(102,102,102);
@@ -520,7 +525,7 @@
 	color: rgb(150,150,150);
 	padding: 0;
 }
-.mes{
+.message{
 	height: 20px;
 	display: flex;
 	justify-content: flex-start;
@@ -528,13 +533,13 @@
 	align-self: center;
 	flex-wrap: wrap;
 }
-.coming:after{
+.starting:after{
 	content: '';
 	position: absolute;
 	top: 0;bottom: 0;left: 0;right: 0;
 	background: linear-gradient(-135deg,transparent 12%,transparent 0,rgb(0,146,242) 0,rgb(0,146,242) 27%,transparent 0,transparent 100%);
 }
-.words-inside{
+.words-in{
 	position: absolute;
 	top: 0;bottom: 0;left: 0;right: 0;
 	transform: rotate(45deg);
